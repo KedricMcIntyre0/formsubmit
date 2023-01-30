@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UFT-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>CONTACT | Simply Bridal</title>  
+        
+        <link href="Style.css" rel="stylesheet" type="text/css" > 
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/7cc2976011.js" crossorigin="anonymous"></script> 
+        <link href="NavCss.css" rel="stylesheet" type="text/css" >
+        <link href="Contct.css" rel="stylesheet" type="text/css" >
+
+        <div class="navbar-links">
+        <ul>
+            <div class="headerOne">
+                <li class="SBLLC"><div class="SBLLC1">Simply Bridal</div> <br> <div class="SBLLC2">By Tiana Lissette</div></li>
+            <div class="text">
+                
+                <div class="underline">
+                    <li class="HomeNav"><a href="Home.html">Home</a></li>
+                    <li class="AboutMeNav"><a href="About Me.html">About Me</a></li>
+                    <li class="ServicesNav"><a href="Services.html">Services</a></li>
+                    <li class="PortfolioNav"><a href="Portfolio.html">Portfolio</a></li>
+                    <li class="ContactNav"><a href="Contact.html">Contact</a></li>
+                        <div class="socialMedia2">
+                            <li><a href="https://www.instagram.com/simplybridalbytianalissette/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/simplybridalbytianalissette" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    </ul>
+                    
+                    
+
+        <div = class="socialMedias">
+            <li><a href="https://www.instagram.com/simplybridalbytianalissette/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/simplybridalbytianalissette" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+        </div>
+
+            <nav class="navbar">
+                <div class="brand-title">Simply Bridal <br> <div class="SBLLC3">By Tiana Lissette</div></div>
+                <a href="#" class="toggle-button">
+                    <div class="menu-btn">
+                        <div class="menu-btn__burger"></div>
+                    </div>
+                </a>
+            </nav>
+            
+    </head>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <i> Now accepting requests for 2024! </i>
+      </div>
+    <body>
+        <script src="JavaScript.js" defer></script>
+
+
+        <div class="container">
+            <form action="https://formsubmit.co/kedricmcintyre@gmail.com" method="POST" onsubmit="SendEmail(); reset(); return false;">
+                <h3>Wedding Inquiry</h3>
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <input type="date" id="start" name="Event Date"  required min="<?php echo date("Y-m-d"); ?>
+                <input type="text" id="Makeup1" placeholder="Airbrush: Number of People" required>
+                <input type="text" id="Makeup2" placeholder="Traditional: Number of People" required>
+                <input type="text" id="Makeup3" placeholder="Hair: Number of People" required>
+                <input type="text" id="Location" placeholder="Event Location" required>
+                <textarea id="message" rows="4" placeholder="Type Here"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+
+
+    </body>
+
+</html>
